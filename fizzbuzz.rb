@@ -3,9 +3,9 @@ def fizzbuzz(int)
      "Fizz"
     elsif int % 5 == 0 
      "Buzz"
-  elsif (int % 5 == 3) && (int % 3 == 5)
+    elsif (int % 5 && % 3 == 0) 
      "FizzBuzz"
-else 
+  else 
   puts "nil"
-end
+  end
 end
